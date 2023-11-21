@@ -2,7 +2,7 @@ import OpenAI from 'openai'
 import dotenv from 'dotenv'
 dotenv.config()
 
-function getWeather (city) {
+export function getWeather (city) {
   const weatherConfig = {
     shanghai: "ranning",
     beijing: 'sunny',

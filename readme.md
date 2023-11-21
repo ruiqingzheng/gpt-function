@@ -7,3 +7,13 @@
 在会话中可以告诉 gpt 这是一个 function call , 只需要指定 role 为 function
 
 ppm install openai
+
+
+
+main.js
+
+request once ,    只是调用一次 自定义方法
+
+callGpt.js
+
+需要 while 循环, 判断是否会话完成
