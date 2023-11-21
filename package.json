@@ -1,0 +1,19 @@
+{
+  "name": "gpt-function",
+  "version": "1.0.0",
+  "description": "## refer <https://youtu.be/i-oHvHejdsc>",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.19.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
